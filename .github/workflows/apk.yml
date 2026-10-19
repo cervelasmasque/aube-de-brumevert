@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    # Le SDK Android est déjà préinstallé sur cette image
     # Version figée : "ubuntu-latest" migre vers Ubuntu 26 à partir du 19 octobre 2026
     runs-on: ubuntu-24.04
     steps:
@@ -21,9 +22,6 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-
-      - name: Installer le SDK Android
-        uses: android-actions/setup-android@v3
 
       - name: Installer Capacitor
         run: npm install
