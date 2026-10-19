@@ -1,0 +1,11 @@
+{
+  "name": "aube-de-brumevert",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jeu d'aventure 3D façon Ocarina of Time : un village et un petit donjon",
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  }
+}

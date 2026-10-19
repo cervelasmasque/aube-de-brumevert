@@ -1,0 +1,7 @@
+{
+  "appId": "ch.brumevert.aube",
+  "appName": "Aube de Brumevert",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "backgroundColor": "#2b2350" }
+}

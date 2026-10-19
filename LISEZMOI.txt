@@ -1,0 +1,12 @@
+AUBE DE BRUMEVERT - compiler l'APK avec GitHub
+
+1. Crée un dépôt GitHub (privé ou public) et envoie-y tout ce dossier
+   (www/, package.json, capacitor.config.json, .github/, .gitignore).
+2. Onglet "Actions" > "Compiler l'APK" > "Run workflow".
+3. Au bout de quelques minutes, ouvre l'exécution terminée et télécharge
+   l'artefact "aube-de-brumevert-apk" (zip contenant app-debug.apk).
+4. Dézippe sur le téléphone, ouvre l'APK et autorise l'installation
+   depuis cette source.
+
+Tester sans APK : ouvre www/index.html dans un navigateur
+(clavier : WASD déplacer, J épée, K roulade, L viser, F flûte, Q/E caméra).
